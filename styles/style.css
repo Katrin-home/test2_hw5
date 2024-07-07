@@ -1,0 +1,64 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+    color: whitesmoke;
+    box-sizing: border-box;
+}
+#top-section{
+    background: url("../images/bg-new.png") ;
+    background-size: cover;
+    height: 100vh;
+    text-transform: uppercase;
+
+}
+.wrapper{
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+}
+ul{padding: 15px 0}
+#menu ul li{
+    display: inline;
+    margin-right: 20px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.slogan{
+    word-spacing: 100vw;
+    font-weight: 500;
+}
+.sub-slogan{
+    font-size: 1.5rem;
+}
+#top-section button{
+    background: none;
+    text-transform: uppercase;
+    border: 2px solid whitesmoke;
+    padding: 10px 40px;
+    border-radius: 10px;
+
+}
+.phone{
+    position: absolute;
+    width: 30%;
+    right: 10%;
+    top: 30%;
+    /*left: 400px;*/
+}
+#bottom-section{
+    background-color: orange;
+    padding: 100px 0;
+
+}
+.card{
+    display: inline-block;
+    margin-right: 10px;
+    width: calc(100% / 4 - 10px);
+    /*border: 1px solid blue;*/
+    text-align: center;
+    padding: 0 40px;
+}
